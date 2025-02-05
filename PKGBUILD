@@ -66,6 +66,7 @@ checkdepends=(
 _pypa="https://files.pythonhosted.org/packages/source"
 source=(
   "${_pypa}/${_pkg::1}/${_pkg}/${_pkg}-${pkgver}.tar.gz"
+)
 sha512sums=(
   'f12d19f7d9cf0ebcc414d97798f0959ff69a77146839cc6a9067c864f9e0be795795c4d648f736fd7448ddf89666ce37f23e7380d1c9b1678a4787961e4e1e79'
 )
